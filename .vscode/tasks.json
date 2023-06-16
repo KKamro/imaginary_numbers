@@ -10,7 +10,7 @@
 				"-g",
 				"-Wall",
 				"-std=c++17",
-				"${fileDirname}\\a.cpp",
+				"${fileDirname}\\ImgNum.cpp",
 				"${file}",
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"

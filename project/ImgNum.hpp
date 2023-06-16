@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <cmath>
+
 class Imaginary_Number{
     private:
         double real;
