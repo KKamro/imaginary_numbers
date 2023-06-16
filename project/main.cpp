@@ -1,10 +1,13 @@
 #include <iostream>
 
-#include "a.hpp"
+#include "ImgNum.hpp"
 
 int main(void)
 {
-    example zmienna;
-    zmienna.print_value();
+    Imaginary_Number zespolona;
+    zespolona.set_number(3, 4);
+    zespolona.print_number();
+    double modul = zespolona.get_abs();
+    std::cout << std::endl << "Module: " << modul;
     return 0;
 }
