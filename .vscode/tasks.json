@@ -4,7 +4,7 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: g++.exe build active file",
-			"command": "C:/Users/48690/Desktop/MinGW/bin/g++.exe",
+			"command": "C:/MinGW/bin/g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
@@ -16,7 +16,7 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "C:/Users/48690/Desktop/MinGW/bin"
+				"cwd": "C:/MinGW/bin"
 			},
 			"problemMatcher": [
 				"$gcc"
@@ -25,7 +25,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "compiler: C:/Users/48690/Desktop/MinGW/bin/g++.exe"
+			"detail": "compiler: C:/MinGW/bin/g++.exe"
 		}
 	]
 }
