@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    ComplexNumber zespolona1, zespolona2{1,1}, suma;
+    CmplxNum::ComplexNumber zespolona1, zespolona2{1,1}, suma;
     zespolona1.set_number(1, 6);
     zespolona1.print_number();
     double modul = zespolona1.get_module();
@@ -12,5 +12,6 @@ int main(void)
     zespolona1.print_trig();
     suma = zespolona1 + zespolona2;
     suma.print_number();
+    CmplxNum::SaveToFile(zespolona1);
     return 0;
 }

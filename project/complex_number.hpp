@@ -1,7 +1,13 @@
 #pragma once
 
+#include <iomanip>
+#include <fstream>
+#include <string>
 #include <iostream>
 #include <cmath>
+
+namespace CmplxNum
+{
 
 class ComplexNumber{
     private:
@@ -26,4 +32,12 @@ class ComplexNumber{
             tmp.imaginary = this->imaginary + rhs.imaginary;
             return tmp;
         }
+
+        //Save to file
+        friend bool SaveToFile(const CmplxNum::ComplexNumber &a);
+        
 };
+
+bool SaveToFile(const CmplxNum::ComplexNumber &a);
+
+}
