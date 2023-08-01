@@ -38,7 +38,7 @@ CmplxNum::ComplexNumber::ComplexNumber(const ComplexNumber &source)
 
 }
 
-bool CmplxNum::SaveToFile(const CmplxNum::ComplexNumber &a)
+bool CmplxNum::ComplexNumber::SaveToFile(const CmplxNum::ComplexNumber &a)
 {
     std::ofstream file {"file.txt"};
     if(!file.is_open()) return false;

@@ -12,6 +12,6 @@ int main(void)
     zespolona1.print_trig();
     suma = zespolona1 + zespolona2;
     suma.print_number();
-    CmplxNum::SaveToFile(zespolona1);
+    CmplxNum::ComplexNumber::SaveToFile(zespolona1);
     return 0;
 }

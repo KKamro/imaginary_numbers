@@ -34,10 +34,7 @@ class ComplexNumber{
         }
 
         //Save to file
-        friend bool SaveToFile(const CmplxNum::ComplexNumber &a);
+        static bool SaveToFile(const CmplxNum::ComplexNumber &a);
         
 };
-
-bool SaveToFile(const CmplxNum::ComplexNumber &a);
-
 }
